@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    char name[50];
+    int age, DOB;
+
+    printf("Enter your name: ");
+    scanf("%s",&name);
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    printf("Enter your DOB: ");
+    scanf("%d", &DOB);
+
+    printf("\nName: %s", name);
+    printf("\nAge: %d", age);
+    printf("\nDOB: %d", DOB);
+    return 0;
+}
