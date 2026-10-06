@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    int num;
+  int a,b,c;
+
+   printf("enter two number a and b:");
+  scanf("%d %d",&a ,&b);
+
+  c = a + b;
+  printf("add:%d\n",c);
+  c = a*b;
+  printf("product:%d\n",c);
+}
